@@ -126,6 +126,7 @@
     <Content Include="Site\Login.aspx" />
     <Content Include="Site\NewCategory.aspx" />
     <Content Include="Site\NewProduct.aspx" />
+    <Content Include="Site\NewUser.aspx" />
     <Content Include="Site\Product.aspx" />
     <Content Include="Site\Category.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -235,6 +236,13 @@
     </Compile>
     <Compile Include="Site\NewProduct.aspx.designer.cs">
       <DependentUpon>NewProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\NewUser.aspx.cs">
+      <DependentUpon>NewUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\NewUser.aspx.designer.cs">
+      <DependentUpon>NewUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site\Product.aspx.cs">
       <DependentUpon>Product.aspx</DependentUpon>

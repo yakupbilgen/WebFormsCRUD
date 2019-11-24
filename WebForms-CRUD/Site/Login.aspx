@@ -7,19 +7,20 @@
         <tr>
             <td style="width: 110px">Kullanıcı Adı</td>
             <td>
-                <asp:TextBox ID="txtUsername" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtUsername" runat="server" Width="210px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td style="width: 110px; height: 30px">Şifre</td>
             <td style="height: 30px">
-                <asp:TextBox ID="txtPassword" runat="server" Width="150px"></asp:TextBox>
+                <asp:TextBox ID="txtPassword" runat="server" Width="210px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td style="width: 110px">&nbsp;</td>
             <td>
-                <asp:Button CssClass="btn btn-warning" ID="btnLogin" runat="server" Text="Button" Width="100px" OnClick="btnLogin_Click" />
+                <asp:Button CssClass="btn btn-warning" ID="btnLogin" runat="server" Text="Giriş Yap" Width="100px" OnClick="btnLogin_Click" />
+                <asp:Button CssClass="btn btn-primary margin-left: 100px;;" ID="btnNewUser" runat="server" Text="Kaydol" Width="100px" OnClick="btnNewUser_Click" />
             </td>
         </tr>
         <tr>
